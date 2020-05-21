@@ -17,8 +17,14 @@ tr{
 .orange-txt{
     color: #fa5d26;
 }
-.blue-txt{
+.darkorange-txt{
+    color: #b25000;
+}
+.lightblue-txt{
     color: #20b4bb;
+}
+.blue-txt{
+    color: #263870;
 }
 .purple-txt{
     color: #9f15a9;
