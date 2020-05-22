@@ -10,6 +10,7 @@ tr{
 .wrapper{
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 60px;
 }
 .yellow-txt{
     color: #e8a336;
@@ -31,9 +32,12 @@ tr{
 }
 .main{
     width: 600px;
+    border-collapse: collapse;
 }
 h1,
-h2{
+h2,
+h3,
+.button a{
     text-align: center;
 }
 h1{
@@ -41,16 +45,30 @@ h1{
     color: #20b4bb;
     font-weight: bold;
 }
-h2{
+h2,
+.h3{
     font-size: 36px;
     color: #bcbcbd;
     font-weight: bold;
 }
+.h3{
+    font-size: 24px;
+}
+h3{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 40px;
+}
 .button{
+    width: 300px;
+}
+.button a{
     padding-top: 17px;
     padding-right: 32px;
     padding-bottom: 17px;
     padding-left: 32px;
+    margin-top: 40px;
     background: #9f15a9;
     font-size: 18px;
     line-height: 22px;
