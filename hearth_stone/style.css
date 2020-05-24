@@ -94,7 +94,11 @@ p{
     color: #fffff8;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
     border-radius: 3px;
+}
+.uppercase{
+    text-transform: uppercase;
 }
 .line{
     padding-bottom: 70px;
