@@ -24,7 +24,7 @@ td{
 
 
 /* ------ */
-/* Верх листа */
+/* Верх листа */  
 .align-txt{
     text-align: right;
 }
@@ -34,13 +34,21 @@ td{
 
 
 .bottom{
-    background: #08081a;
+    padding-top: 30px;
     color: #9999a6;
     text-align: center;
+    vertical-align: middle;
+    background: #08081a;
 }
 .copy{
+    margin: 22px;
+}
+.about-bottom{
+    margin: 0;
+    padding: 15px;
     background: #000014;
 }
-.copy a{
+.about-bottom a{
     color: #fd8300;
+    text-decoration: none;
 }
