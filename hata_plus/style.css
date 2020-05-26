@@ -89,7 +89,24 @@ h1{
     background: #fd8300;
 }
 .advantages{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    line-height: 18px;
     background-color: #ededf5;
+}
+.advantages h4{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color:  #24242b;
+}
+.advantages p{
+    margin: 0;
+    color: #666666;
+}
+.advantages-txt{
+    padding-top: 25px;
 }
 h3 a{
     font-size: 16px;
