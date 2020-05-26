@@ -2,7 +2,6 @@ body{
     margin: 0;
 }
 .main{
-    width: 1000px;
     margin: 0 auto;
     font-size: 13px;
     font-family: "Arial";
@@ -21,7 +20,7 @@ td{
     background: #fff;
 }
 .wrapper{
-    width: 600px;
+    width: 47.5%;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -89,6 +88,9 @@ h1{
 .about-company a{
     background: #fd8300;
 }
+.advantages{
+    background-color: #ededf5;
+}
 h3 a{
     font-size: 16px;
     color: #1f1f56;
@@ -100,12 +102,12 @@ h3 a{
 .house-tree{
     padding-top: 20px;
     padding-bottom: 25px;
+}
+.house-one,
+.house-two{
     border-bottom-width: 2px;
     border-bottom-color: #dadae2;
     border-bottom-style: solid;
-}
-.house-tree{
-    border: none;
 }
 .house-one-txt{
     padding-top: 5px;
