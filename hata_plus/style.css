@@ -19,7 +19,7 @@ td{
     background: #fff;
 }
 .midle{
-    width: 47.5%;
+    width: 80%;
     margin: 0 auto;
 }
 .wrapper{
@@ -45,13 +45,18 @@ h3{
     text-decoration: none;  
     border-radius: 50px;
 }
-
+sup{
+    font-size: 0.7em;
+}
 
 /* ------ */
 /* Верх листа */  
 .header{
     padding-top: 12px;
     padding-bottom: 12px;
+}
+.header td{
+    width: 50%;
 }
 .align-txt{
     text-align: right;
@@ -73,6 +78,9 @@ h3{
 
 /* ------ */
 /* середина листа */
+.banner{
+    display: block;
+}
 .about-company{
     padding-top: 35px;
     padding-bottom: 50px;
@@ -94,11 +102,20 @@ h1{
     background: #fd8300;
 }
 .advantages{
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 40px;
     padding-bottom: 30px;
     text-align: center;
     line-height: 18px;
     background-color: #ededf5;
+}
+.advantages td{
+    vertical-align: top;
+}
+.pad10px{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .advantages h4{
     margin: 0;
@@ -112,6 +129,8 @@ h1{
 }
 .advantages-txt{
     padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 h3 a{
     font-size: 16px;
@@ -131,6 +150,11 @@ h3 a{
     border-bottom-color: #dadae2;
     border-bottom-style: solid;
 }
+.house-one td,
+.house-two td,
+.house-tree td{
+    width: 50%;
+}
 .house-one-txt{
     padding-top: 5px;
     padding-left: 20px;
@@ -144,6 +168,8 @@ h3 a{
     line-height: 19px; 
 }
 .sale_bg{
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url(https://raw.githubusercontent.com/fisvif/Email/master/hata_plus/images/bg-sale.jpg);
 }
 .sale{
@@ -184,6 +210,7 @@ h3 a{
     margin: 0;
     padding: 15px;
     font-size: 0px;
+    text-align: center;
     background: #000014;
 }
 .about-bottom a{
